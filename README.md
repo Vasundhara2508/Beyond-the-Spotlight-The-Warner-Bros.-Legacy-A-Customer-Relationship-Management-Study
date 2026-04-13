@@ -6,11 +6,11 @@ You can copy this directly into **README.md** in your GitHub repo.
 
 ---
 
-# 🎬 CRM Analytics & Churn Prediction in the Streaming Industry
+#  CRM Analytics & Churn Prediction in the Streaming Industry
 
 ### Warner Bros vs Netflix – Customer Relationship Management Study
 
-## 📌 Project Overview
+## Project Overview
 
 The global streaming industry has become highly competitive, where **customer retention and churn management** play a critical role in long-term business success.
 
@@ -22,7 +22,7 @@ The goal is to understand why **Netflix maintains lower churn rates despite Warn
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 1. Analyze **Warner Bros franchise strength and audience demand** using movie performance data.
 2. Identify **customer churn drivers** using predictive machine learning models.
@@ -32,9 +32,9 @@ The goal is to understand why **Netflix maintains lower churn rates despite Warn
 
 ---
 
-# 📊 Data Sources
+#  Data Sources
 
-### 1️⃣ Warner Bros Industry Data
+###  Warner Bros Industry Data
 
 Used to analyze **market performance and business trends**.
 
@@ -47,7 +47,7 @@ Features analyzed:
 
 ---
 
-### 2️⃣ Warner Bros Movie Dataset (TMDB)
+###  Warner Bros Movie Dataset (TMDB)
 
 Used to evaluate **franchise strength and audience demand**.
 
@@ -63,7 +63,7 @@ Key features:
 
 ---
 
-### 3️⃣ Netflix Customer Churn Dataset
+### Netflix Customer Churn Dataset
 
 Used for **predictive modeling of customer churn**.
 
@@ -78,7 +78,7 @@ Features analyzed:
 
 ---
 
-### 4️⃣ Viewer Survey Dataset
+###  Viewer Survey Dataset
 
 Collected through Google Forms to analyze **consumer perception and engagement behavior**.
 
@@ -92,7 +92,7 @@ Survey topics:
 
 ---
 
-# ⚙️ Methods & Techniques
+#  Methods & Techniques
 
 ## Data Analysis
 
@@ -117,9 +117,9 @@ Survey topics:
 
 ---
 
-# 📈 Key Insights
+#  Key Insights
 
-### 🎥 Franchise Strength
+###  Franchise Strength
 
 Warner Bros possesses **strong movie franchises with high global popularity and revenue performance**.
 
@@ -127,7 +127,7 @@ However, **content strength alone does not guarantee subscriber retention**.
 
 ---
 
-### 📉 Churn Drivers
+### Churn Drivers
 
 Machine learning models revealed that customer churn is primarily influenced by:
 
@@ -140,7 +140,7 @@ Netflix reduces churn through **data-driven CRM systems and recommendation algor
 
 ---
 
-### 👥 Consumer Perception
+###  Consumer Perception
 
 Survey analysis showed that:
 
@@ -150,7 +150,7 @@ Survey analysis showed that:
 
 ---
 
-# 📊 Dashboard Features
+#  Dashboard Features
 
 An interactive **Streamlit dashboard** was developed to visualize key insights.
 
@@ -164,7 +164,7 @@ Dashboard capabilities:
 
 ---
 
-# 🧠 CRM Gap Analysis
+#  CRM Gap Analysis
 
 | CRM Capability            | Netflix                         | Warner Bros                  |
 | ------------------------- | ------------------------------- | ---------------------------- |
@@ -175,7 +175,7 @@ Dashboard capabilities:
 
 ---
 
-# 💡 Recommendations
+#  Recommendations
 
 To improve customer retention, Warner Bros should adopt:
 
@@ -212,15 +212,15 @@ These strategies can help convert **franchise popularity into long-term subscrib
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project
 
-### 1️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit
 ```
 
-### 2️⃣ Run the Dashboard
+###  Run the Dashboard
 
 ```bash
 streamlit run dashboard.py
@@ -228,7 +228,7 @@ streamlit run dashboard.py
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 CRM-Streaming-Analytics/
@@ -252,7 +252,7 @@ This project was developed as part of the **Customer Relationship Management (CR
 
 ---
 
-# 📬 Author
+# Author
 
 **Vasundharadevi**
 Business Analytics | Data Science | CRM Analytics

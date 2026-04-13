@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+    --gold:    #F5C842;
+    --red:     #E8233A;
+    --dark:    #0A0A10;
+    --panel:   #12121C;
+    --border:  #2A2A3E;
+    --text:    #E8E8F0;
+    --muted:   #8888AA;
+    --accent1: #3B82F6;
+    --accent2: #10B981;
+}
+
+/* GLOBAL */
+html, body, [class*="css"] {
+    background-color: var(--dark) !important;
+    color: var(--text) !important;
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+/* SIDEBAR */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0E0E1A 0%, #16162A 100%) !important;
+    border-right: 1px solid var(--border);
+}
+section[data-testid="stSidebar"] * {
+    color: var(--text) !important;
+}
+
+/* 🔥 BUTTON NAV */
+/* ─────────────────────────────────────────────
+   SIDEBAR BUTTON NAV 🔥
+───────────────────────────────────────────── */
+
+section[data-testid="stSidebar"] button {
+    background-color: #1f2a40;
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    border: 1px solid #2f3b55;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover ⚡ */
+section[data-testid="stSidebar"] button:hover {
+    background-color: #4c6ef5;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 12px rgba(76,110,245,0.6);
+}
+
+/* Click */
+section[data-testid="stSidebar"] button:focus {
+    border: 2px solid #82aaff;
+}
+
+/* CARDS */
+.card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+}
+.card-gold  { border-left: 4px solid var(--gold); }
+.card-red   { border-left: 4px solid var(--red); }
+.card-blue  { border-left: 4px solid var(--accent1); }
+.card-green { border-left: 4px solid var(--accent2); }
+
+/* HERO */
+.page-hero {
+    background: linear-gradient(135deg, #0E0E1A, #1A1A2E);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-title {
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
+    color: var(--gold);
+}
+
+.hero-sub {
+    color: var(--muted);
+}
+
+/* HEADERS */
+.section-header {
+    font-family: 'Bebas Neue';
+    font-size: 1.6rem;
+    color: var(--gold);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1rem;
+}
+
+.nav-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+
+    background: linear-gradient(90deg, #F5C842, #FFD700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* METRICS */
+[data-testid="stMetric"] {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+[data-testid="stMetricValue"] {
+    color: var(--gold);
+}
+
+
